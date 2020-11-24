@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: cursive;
+
+}
+nav a img{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+nav button{
+    height: 50px;
+    width: 75px;
+    margin: 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 20%;
+    justify-self: center;
+    border: 1px solid;
+
+}
+header{
+    width: 90%;
+    margin: 0 5%;
+}
+.plat{
+    width: 30%;
+    height: 250px;
+    border-radius: 15px;
+    margin:  20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-size: cover;
+}
+.espave{
+    height: 80px;
+}
+header h1{
+    text-align: center;
+}
+.btn{
+    color: white;
+    background-color: black;
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    margin: 0px 42%;
+
+ }
+    .plats{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+ footer{
+     background-color: black;
+     color: white;
+     height: 50px;
+     text-align: center;
+ }   
+
+
+    @media(max-width : 1025px){
+        .plat{
+            width: 46%;
+        }
+        .btn{
+            margin: 0 30%;
+        }
+        }
+        @media(max-width : 570px){
+            .plat{
+            width: 90%;
+            }
+            .btn{
+                margin: 0 32%;
+            }
+        }
+
+ /* -------------- pupap------------- */
+ .popap .shadow{
+     position: fixed;
+     top: 0;
+     left:0;
+     width: 100vw;
+     height: 100vh;
+     background: rgb(0, 0, 0,0.7);
+     z-index: 1;
+ }
+ .popap .content{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     background: #fff;
+     width: 450px;
+     height: auto;
+     z-index: 2;
+     text-align: center;
+     padding: 20px;
+     box-sizing: border-box;
+ }
+
+ /* _____________ forme -------------- */
+ input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #969696;
+  }
